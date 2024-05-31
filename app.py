@@ -8,7 +8,8 @@ def home():
 
 @app.route('/profile',methods=['GET'])
 def profile():
-    return jsonify({'msg': 'This is Profile Page'})
+    return jsonify({'msg': 'This is Profile Page',
+                    'msg': 'tes'})
 
 @app.route('/portfolio',methods=['GET'])
 def portfolio():

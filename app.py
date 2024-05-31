@@ -13,7 +13,7 @@ def profile():
 
 @app.route('/portfolio',methods=['GET'])
 def portfolio():
-    return jsonify({'msg': 'This is Portfolio Page'})
+    return jsonify({'msg': 'udah bisa belom?'})
 
 @app.route('/contact',methods=['GET'])
 def contact():

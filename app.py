@@ -9,7 +9,7 @@ def home():
 @app.route('/profile',methods=['GET'])
 def profile():
     return jsonify({'msg': 'This is Profile Page',
-                    'msg': 'tes'})
+                    'msg': 'coba keubah gak'})
 
 @app.route('/portfolio',methods=['GET'])
 def portfolio():

@@ -1,0 +1,140 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgba(185, 206, 238, 0.218);
+}
+
+.container-home {
+  background-color: rgba(185, 206, 238, 0.433);
+  padding-top: 13px;
+}
+
+.navbar-toggler {
+  margin-bottom: 25px;
+}
+
+#catto2 {
+  display: block;
+  margin: auto;
+  mix-blend-mode: multiply;
+} 
+
+.navbar-light , .navbar-brand {
+  font-weight: 700;
+  font-size: 25px;
+  height: 70px;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-nav a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link:hover {
+  color: rgb(131, 159, 223) !important;
+}
+
+.subtitle{
+  color: rgb(131, 159, 223);
+}
+
+.cover-heading, .text-center {
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 40px;
+
+}
+
+.cover {
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.about-section-padding {
+  padding: 100px 0;
+}
+
+#me {
+  width: 300px;
+}
+
+.cv-btn {
+  background-color: transparent;
+  border-radius: 25px;
+  margin-top: 9px;
+  padding: 7px 9px;
+  color: rgb(144, 173, 242);
+  border: 2px solid rgb(144, 173, 242);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.cv-btn:hover {
+  background-color: rgb(144, 173, 242);
+  color: white;
+}
+
+.btn-view:hover {
+  background-color: rgb(144, 173, 242);
+  color: white;
+}
+
+.about-text {
+  font-size: 20px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card {
+  height: 100%; 
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover;
+}
+
+.card-body {
+  height: 150px;
+  overflow: hidden; /* Mengatur overflow agar konten yang melebihi tinggi card-body terpotong */
+}
+
+.btn-view {
+  width: 100%;
+}
+
+
+.btn-view {
+  background-color: transparent;
+  border-radius: 25px;
+  margin-top: 15px;
+  padding: 7px 9px;
+  color: rgb(144, 173, 242);
+  border: 2px solid rgb(144, 173, 242);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+form {
+  border-radius: 10px; 
+  background-color: rgba(185, 206, 238, 0.433);
+  padding: 20px; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+
+
+

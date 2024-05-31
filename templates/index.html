@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Azra</title>
+  <!-- CDN Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="../static/file.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-sm navbar-light fixed-top bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Port<span class="subtitle">folio</span></a>
+      <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse" id="navbarCollapse">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End of Navbar -->
+   <!-- Home -->
+  <section id="home">
+    <div class="container-home">
+      <div class="img-catto">
+      <img src="../static/catto2.jpg" class="img-fluid" id="catto2" alt="...">
+      </div>
+    <div class="cover-container d-flex flex-row justify-content-center align-content-center p-5 mb-5">
+      <div class="cover">
+      <main role="main" class="inner cover">
+        <h1 class="cover-heading">Hi, I am Mesayu Fitri Novianti Azra.</h1>
+        <p class="lead">An enthusiastic student who likes to code, taking pictures, editing videos, and petting cats.</p>
+      </main>
+    </div>
+    </div>
+  </div>
+  </section>
+  <!-- End of Home -->
+  <!-- Profile -->
+  <section id="profile" class="about-section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-12">
+          <img src="../static/ajraa.jpg" class="img-fluid" alt="..." id="me">
+        </div>
+      <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+        <div class="about-text">
+          <h2 class="cover-heading" id="title-profile">My Profile</h2>
+          <p>I am a 20 years old student at Gunadarma University. I take an interest on website development, thus my major is Information Systems. 
+            I am a reliable and responsible person with great passion in learning something new.</p>
+            <button onclick="downloadCV()" class="cv-btn">Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </section>
+  <!-- End of Profile -->
+   <!-- Portfolio -->
+   <section id="portfolio" class="about-section-padding">
+    <div class="container">
+      <h2 class="text-center mb-5 mt-5" id="title-experience">Experience</h2>
+      <div class="row align-items-center">  
+      <div class="col-md-4 col-sm-6 mb-3">
+          <img src="../static/wo2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Wedding Organization Part Time </h5>
+            <button class="btn-view">View More</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <img src="../static/heroes.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Technology Social Education Volunteer</h5>
+            <button class="btn-view">View More</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <img src="../static/aslab.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Information Systems Lab Assistant </h5>
+            <button class="btn-view">View More</button>
+          </div>
+        </div> 
+        <div class="col-md-4 col-sm-6 mb-3">
+          <img src="../static/kas_kelas.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Class Cash-Flow Web</h5>
+            <button class="btn-view">View More</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-3">
+          <img src="../static/tiketin.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">TiketIn UI</h5>
+            <button class="btn-view">View More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Portfolio -->
+   <!-- Contact -->
+  <section id="contact">
+      <div class="container">
+        <h2 class="text-center mt-5 mb-5">Contact Me</h2>
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button class="btn-view">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  <!-- End of Contact -->
+  <!-- Footer -->
+  <footer class="footer py-3 bg-light mt-5">
+    <div class="container">
+      <span class="text-muted">2024 © Mesayu Fitri Novianti Azra</span>
+    </div>
+  </footer>
+  <!-- End Footer -->
+</body>
+</html>
